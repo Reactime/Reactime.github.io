@@ -12,11 +12,24 @@ html {
 }
 
 /* this is to center text over an image */
+
+@media screen and (min-width: 601px) {
+  div.centered {
+    font-size: 4em;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  div.centered {
+    font-size: 2em;
+  }
+}
 .centered {
   position: absolute;
   top: 50%;
   left: 50%;
-  font-size: 4em;
+  /* font-size: 4em; */
   text-align: center;
   color: white;
   transform: translate(-50%, -50%)
