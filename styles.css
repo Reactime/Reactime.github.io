@@ -1,0 +1,32 @@
+html {
+  background: url(https://www.linuxfoundation.org/wp-content/uploads/2016/12/lf_background_trees.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+}
+
+/* this is to center text over an image */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 4em;
+  text-align: center;
+  color: white;
+  transform: translate(-50%, -50%)
+}
+
+#ty {
+color: white;
+size: 0.1em;
+position: absolute;
+bottom: 8px;
+left: 16px;
+/* transform: translate(-50%, -50%) */
+}
