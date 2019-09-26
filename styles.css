@@ -1,9 +1,11 @@
-html {
-  background: url(https://www.linuxfoundation.org/wp-content/uploads/2016/12/lf_background_trees.jpg) fixed;
-  -webkit-background-size: cover;
+body {
+  background-image: url(https://www.linuxfoundation.org/wp-content/uploads/2016/12/lf_background_trees.jpg);
+  /* -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
+  background-size: cover; */
+  background-repeat: no-repeat;
+  /* background-position: center top; */
 }
 
 /* this is to center text over an image */
