@@ -1700,14 +1700,15 @@ nav.navbar.stick {
   margin-top: 5px;
 }
 
-/* TOP HEADER WHERE SVG LOGO IS IN */
+/* border for content boxes */
 .service-area  .content-box {
   background: #fff none repeat scroll 0 0;
-  border: 1px solid #085450;
+  border: 1px solid #e6edec;
   padding: 31px;
 }
 .service-area .content-box .content-box-text {
-  font-size: 13px;
+	font-size: 13px;
+	color: #869c98;
 }
 .service-area .content-box-icon span {
   transform: scale(0.9);
@@ -1733,8 +1734,11 @@ nav.navbar.stick {
   background: transparent none repeat scroll 0 0;
   border-radius: 0;
 }
+
+/* const jade green = #08540; */
+/* SVG LOGO BG */
 .breadcrum-area {
-  background: #085450 none repeat scroll 0 0;
+  background: #f8f8f8 none repeat scroll 0 0;
   padding: 99px 0 29px;
 }
 .breadcrum-title > h2 {
