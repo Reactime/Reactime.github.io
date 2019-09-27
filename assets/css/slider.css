@@ -1,0 +1,209 @@
+/* -------------------------------------------------------------------
+General Styles
+------------------------------------------------------------------- */
+
+.flex-direction-nav a,
+.flex-control-nav > li > a {
+	-webkit-transition: all 0.3s ease-in-out 0s;
+	   -moz-transition: all 0.3s ease-in-out 0s;
+		-ms-transition: all 0.3s ease-in-out 0s;
+		 -o-transition: all 0.3s ease-in-out 0s;
+			transition: all 0.3s ease-in-out 0s;
+}
+
+.flex-direction-nav a {
+	position: absolute;
+	display: block;
+	height: 100%;
+	width: 50%;
+	top: 0;
+	z-index: 10;
+	overflow: hidden;
+	opacity: 0;
+	margin:0;
+}
+
+.flex-direction-nav .flex-prev {
+	opacity: 0;
+	left: 0;
+	cursor: url(../images/prev-light.png), e-resize;
+}
+
+.flex-direction-nav .flex-next {
+	opacity: 0;
+	right: 0;
+	cursor: url(../images/next-light.png), e-resize;
+}
+
+.flex-control-nav {
+	position: absolute;
+	width: auto;
+	left: 50%;
+	bottom: 10px;
+	z-index: 11;
+	text-align: center;
+	-webkit-transform: translateX(-50%);
+	   -moz-transform: translateX(-50%);
+	    -ms-transform: translateX(-50%);
+	     -o-transform: translateX(-50%);
+	        transform: translateX(-50%);
+}
+
+.flex-control-nav > li {
+	display: inline-block;
+	margin: 5px 3px;
+}
+
+.flex-control-nav > li > a {
+	background: transparent;
+	border: 1px solid #fff;
+	display: block;
+	height: 6px;
+	width: 6px;
+	-webkit-border-radius: 6px;
+	   -moz-border-radius: 6px;
+	        border-radius: 6px;
+}
+
+.flex-control-nav > li > a:hover,
+.flex-control-nav > li > a.flex-active {
+	background: #fff;
+}
+
+.hero-slider {
+	position: relative;
+	overflow: hidden;
+}
+
+.hero-slider .slidebg {
+	background-position: center;
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	-webkit-background-size: cover;
+	   -moz-background-size: cover;
+	     -o-background-size: cover;
+	        background-size: cover;
+}
+
+.hero-slider > .slides > li.flex-active-slide .slidebg.slide-zoom {
+	-webkit-transform: scale(1.1);
+	   -moz-transform: scale(1.1);
+	    -ms-transform: scale(1.1);
+	     -o-transform: scale(1.1);
+	        transform: scale(1.1);
+}
+
+.hero-slider > .slides > li .slidebg {
+	-webkit-transition: transform 10s ease;
+	   -moz-transition: transform 10s ease;
+	    -ms-transition: transform 10s ease;
+	     -o-transition: transform 10s ease;
+	        transition: transform 10s ease;
+}
+
+.hero-slider-dark .flex-direction-nav .flex-prev {
+	opacity: 0;
+	left: 0;
+	cursor: url(../images/prev-dark.png), e-resize;
+}
+
+.hero-slider-dark .flex-direction-nav .flex-next {
+	opacity: 0;
+	right: 0;
+	cursor: url(../images/next-dark.png), e-resize;
+}
+
+.hero-slider-dark .flex-control-nav > li > a {
+	border: 1px solid #000;
+}
+
+.hero-slider-dark .flex-control-nav > li > a:hover,
+.hero-slider-dark .flex-control-nav > li > a.flex-active {
+	background: #000;
+}
+
+/* -------------------------------------------------------------------
+Hero Slider
+------------------------------------------------------------------- */
+
+.hero-slider {
+	margin: 0!important;
+}
+
+.hero-slider .slides > li {
+	display: none;
+	-webkit-backface-visibility: hidden;
+}
+
+.hero-slider,
+.hero-slider .flex-viewport {
+	height: 100% !important;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+.hero-slider .slides {
+	height: 100% !important;
+	-webkit-transition-delay: 1s;
+	   -moz-transition-delay: 1s;
+	        transition-delay: 1s;
+}
+
+.hero-slider .slides li {
+	background-position: center center;
+	background-repeat: no-repeat;
+	height: 100% !important;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	-webkit-background-size: cover;
+	   -moz-background-size: cover;
+	     -o-background-size: cover;
+	        background-size: cover;
+}
+
+/* Caption */
+
+.hs-caption {
+	position: relative;
+	display: table;
+	height: 100%;
+}
+
+.hs-caption {
+	position: relative;
+	display: table;
+	height: 100%;
+}
+
+.caption-content {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.caption-content.left {
+	vertical-align: bottom;
+	text-align: left;
+	padding: 140px 0;
+}
+
+.caption-content.right {
+	vertical-align: bottom;
+	text-align: right;
+	padding: 140px 0;
+}
+
+@media (max-width: 767px) {
+
+	.caption-content.left,
+	.caption-content.right {
+		vertical-align: middle;
+		text-align: center;
+	}
+
+}
