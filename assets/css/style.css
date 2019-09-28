@@ -32,6 +32,14 @@ html {
 	-ms-overflow-style: scrollbar;
 }
 
+@import url('https://fonts.googleapis.com/css?family=Cutive+Mono&display=swap');
+code {
+	font-family: 'Cutive Mono', monospace;
+	font-size: 1em;
+	color: #666666;
+	text-transform: lowercase;
+}
+
 body {
 	background: #fff;
 	font: 400 12px/1.8 "Open Sans", Verdana, sans-serif;
