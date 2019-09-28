@@ -1604,7 +1604,7 @@ nav.navbar.stick {
   width: 100px;
 }
 .section-title > h2::before {
-  background: #222 none repeat scroll 0 0;
+  background: #524f4f none repeat scroll 0 0;
   bottom: -8px;
   content: "";
   height: 2px;
@@ -1688,7 +1688,7 @@ nav.navbar.stick {
   background: #fff none repeat scroll 0 0;
 }
 .gray-bg {
-  background: #f8f8f8 none repeat scroll 0 0;
+  background: #edf5f2;
 }
 .counter-home {
   padding-bottom: 82px;
@@ -1738,7 +1738,7 @@ nav.navbar.stick {
 /* const jade green = #08540; */
 /* SVG LOGO BG */
 .breadcrum-area {
-  background: #f8f8f8 none repeat scroll 0 0;
+  background: #edf5f2; 
   padding: 99px 0 29px;
 }
 .breadcrum-title > h2 {
