@@ -477,9 +477,13 @@ blockquote {
 }
 
 .team-text {
-	font-family: "open sans", sans-serif;
-	font-size: 1em;
+	font-family: "Inconsolata", sans-serif;
+	font-size: 0.85em;
+	text-transform: uppercase;
+	text-align: justify;
 	letter-spacing: 0.02em;
+	margin-top: 10px;
+	margin-bottom: -5px;
 }
 
 .font-inc {
