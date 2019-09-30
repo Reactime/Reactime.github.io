@@ -35,13 +35,27 @@ html {
 @import url('https://fonts.googleapis.com/css?family=Cutive+Mono&display=swap');
 code {
 	font-family: 'Cutive Mono', monospace;
-	font-size: 1em;
-	color: #666666;
-	text-transform: lowercase;
+	font-size: 5em;
+	color: #869c98;
+	text-transform: none;
+}
+pre {
+	display: block;
+    padding: 9.5px;
+    margin: 0 0 10px;
+    font-size: 13px;
+    line-height: 1.42857143;
+    color: #333;
+    word-break: break-all;
+    word-wrap: break-word;
+		background-color: #f5f0ee;
+    border: 1px solid #46726e;
+    border-radius: 4px;
 }
 
+/* WHITE BG COLOR */
 body {
-	background: #fff;
+	background: #f0d7cb;
 	font: 400 12px/1.8 "Open Sans", Verdana, sans-serif;
 	color: #666;
 	-webkit-font-smoothing: antialiased;
@@ -445,7 +459,7 @@ a,
 
 /*--- [ 9. Typography ] ---*/
 a {
-	color: #000;
+	color: rgb(138, 194, 189);
 }
 
 a:hover, a:focus {
@@ -499,7 +513,13 @@ blockquote {
 	text-transform: uppercase;
 	letter-spacing: 0.1em;
 }
-
+.only-tool {
+	font-family: "Inconsolata", sans-serif;
+	text-transform: uppercase;
+	/* letter-spacing: 0.02em; */
+	/* margin-top: 30px; */
+	font-size: 1.4em;
+}
 .font-serif {
 	font-family: Georgia, sans-serif;
 }
@@ -637,8 +657,9 @@ a.meanmenu-reveal{display:none}
 .navbar-custom .dropdown-menu .dropdown-menu {
   border-top: 2px solid #000000;
 }
+/* navbar backgroudn navbar bg color before scrolling */
 .navbar-custom {
-	background: #fff;
+	background: #F1E8E3;
 	border: 0;
 	border-color: #f5f5f5 !important;
 	border-bottom: 1px solid #f5f5f5 !important;
@@ -674,9 +695,10 @@ a.meanmenu-reveal{display:none}
 	color: #000;
 }
 
+/* text links to the top right */
 .navbar-custom .nav li > a {
 	position: relative;
-	color: #000;
+	color: #165253;
 }
 
 .navbar-custom .nav > li > a:focus, .navbar-custom .nav > li > a:hover, .navbar-custom .nav .open > a, .navbar-custom .nav .open > a:focus, .navbar-custom .nav .open > a:hover, .navbar-custom .dropdown-menu > li > a:focus, .navbar-custom .dropdown-menu > li > a:hover {
@@ -770,36 +792,22 @@ a.meanmenu-reveal{display:none}
 	font-size: 36px;
 }
 
-/* Video */
-
-.video-controls-box {
-	position: absolute !important;
-	bottom: 40px;
-	left: 0;
-	width: 100%;
-	z-index: 1;
-}
-
-.video-controls-box a {
-	visibility: hidden;
-	display: inline-block;
-	color: #fff;
-	margin: 0 5px 0 0;
-}
 
 /* -- Sections */
 
 .wrapper {
 	position: relative;
-	background: #fff;
+	background: #000;
 	z-index: 1;
 }
 
+/* THE ONLY TOOL YOU NEED BG COLOR */
 .module,
 .module-small,
 .module-header {
 	position: relative;
 	padding: 140px 0;
+	background-color: #F1E8E3;
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
 	-webkit-background-size: cover;
@@ -833,6 +841,7 @@ a.meanmenu-reveal{display:none}
 
 .module-subtitle {
 	margin-bottom: 70px;
+	margin-right: 20px;
 	font-size: 12px;
 }
 
@@ -843,7 +852,7 @@ a.meanmenu-reveal{display:none}
 /* Sections dividers */
 
 .divider-w {
-	border-top: 1px solid #f5f5f5;
+	border-top: 1px solid #0b393a;
 	margin: 0;
 }
 
@@ -871,7 +880,9 @@ a.meanmenu-reveal{display:none}
 	font-size: 36px;
 }
 
+/* titles for content boxes */
 .content-box-title {
+	color: #43a396;
 	margin: 5px 0 0;
 	font-size: 14px;
 }
@@ -1450,7 +1461,7 @@ opacity: 1;
 
 /* New Custom style  */
 body {
-  color: #066355;
+  color: #0f8372;
   font: 400 13px/1.8 "Open Sans",Verdana,sans-serif;
 }
 .navbar {
@@ -1511,15 +1522,16 @@ nav.navbar ul li:hover > ul {
   transform: scaleY(1);
   visibility: visible;
 }
+/* navbar transition color */
 nav.navbar.stick {
-  background: #fff none repeat scroll 0 0;
+  background: #88c3b8 none repeat scroll 0 0;
   border-bottom: 1px solid rgba(25, 25, 25, 0.04) !important;
   border-left-color: #f5f55f;
   border-right-color: #f5f55f;
   border-top-color: #f5f55f;
 }
 .navbar-transparent.stick .nav li > a, .navbar-transparent.stick .navbar-brand {
-  color: #000;
+  color: #fff;
 }
 
 
@@ -1531,7 +1543,8 @@ nav.navbar.stick {
 }
 .font-inc {
   font-family: open sans;
-  letter-spacing: 0.1em;
+	letter-spacing: 0.1em;
+	font-size: 0.9em;
   text-transform: uppercase;
 }
 .white-bg-30::before {
@@ -1612,7 +1625,7 @@ nav.navbar.stick {
   text-transform: uppercase;
 }
 .section-title > h2::after {
-  background: #ddd none repeat scroll 0 0;
+  background: #2b3c44 none repeat scroll 0 0;
   bottom: -8px;
   content: "";
   height: 2px;
@@ -1622,7 +1635,7 @@ nav.navbar.stick {
   width: 100px;
 }
 .section-title > h2::before {
-  background: #524f4f none repeat scroll 0 0;
+  background: #489486 none repeat scroll 0 0;
   bottom: -8px;
   content: "";
   height: 2px;
@@ -1640,7 +1653,7 @@ nav.navbar.stick {
   color: #000;
 }
 .footer-area {
-  border-top: 1px solid #f2f2f2f2;
+  border-top: 1px solid #346b62f2;
   padding: 25px 0;
 }
 .copy-right {
@@ -1656,10 +1669,11 @@ nav.navbar.stick {
   list-style: outside none none;
   margin-left: 10px;
 }
+/* twitter bg icon stuff */
 .social-bookmark-wrapper a {
-  border: 1px solid #e3e3e3;
+  border: 1px solid #26776d;
   border-radius: 100%;
-  color: #555;
+  color: #ecddd9;
   display: inline-block;
   font-size: 17px;
   height: 40px;
@@ -1671,7 +1685,7 @@ nav.navbar.stick {
 }
 .social-bookmark-wrapper a:hover {
   border: 1px solid #f8f8f8;
-  color: #fff;
+  color: #012E2B;
 }
 
 .social-bookmark-wrapper  li a::before {
@@ -1705,8 +1719,10 @@ nav.navbar.stick {
 .navbar-transparent.navbar-custom .navbar-nav > *::before {
   background: #fff none repeat scroll 0 0;
 }
+
+/* THE ALTERNATING BACKGROUND COLOR aka what the team module bg color is*/
 .gray-bg {
-  background: #edf5f2;
+  background: #012E2B;
 }
 .counter-home {
   padding-bottom: 82px;
@@ -1718,15 +1734,17 @@ nav.navbar.stick {
   margin-top: 5px;
 }
 
-/* border for content boxes */
 .service-area  .content-box {
-  background: #fff none repeat scroll 0 0;
-  border: 1px solid #e6edec;
+	/* background for content boxes */
+	/* bg for content boxes */
+	background: #0b393a none repeat scroll 0 0;
+	/* border for content boxes */
+  border: 1px solid #26776d;
   padding: 31px;
 }
 .service-area .content-box .content-box-text {
 	font-size: 13px;
-	color: #869c98;
+	color: #77aca4;
 }
 .service-area .content-box-icon span {
   transform: scale(0.9);
@@ -1753,11 +1771,13 @@ nav.navbar.stick {
   border-radius: 0;
 }
 
-/* const jade green = #08540; */
+/* const jade green = #08540; font color - #066355 */
+/* mint grn = #edf5f2; */
 /* SVG LOGO BG */
 .breadcrum-area {
-  background: #edf5f2; 
-  padding: 99px 0 29px;
+  background: #012E2B; 
+	padding: 99px 0 29px;
+	height: 550px;
 }
 .breadcrum-title > h2 {
   margin-bottom: 0;
