@@ -239,14 +239,14 @@
                     rel="nofollow"><strong>npm package</strong></a> into your terminal/code editor inside of your application folder.</p>
               <pre class="tab"><code>npm i reactime</code></pre>
                 <p>3. Call the library method on your root container after rendering your App.</p>
-                <pre class="tab"><code>const reactime = require('reactime');
+                <pre class="tab"><code><font color="#62249c">const</font> <font color="#c9209a">reactime</font> <font color="#62249c">=</font> <font color="#1f2bd1">require</font><font color="#e3ab3b">(</font><font color="#4abfc7">'</font><font color="#66c491">reactime</font><font color="#4abfc7">'</font><font color="#e3ab3b">)</font><font color="#4abfc7">;</font>
                   
-const rootContainer = document.getElementById('root');
-ReactDOM.render(&lt;App /&gt;, rootContainer);
+<font color="#62249c">const</font> <font color="#c9209a">rootContainer</font> <font color="#62249c">=</font> document<font color="#4abfc7">.</font><font color="#1f2bd1">getElementById</font><font color="#e3ab3b">(</font><font color="#4abfc7">'</font><font color="#66c491">root</font><font color="#4abfc7">'</font><font color="#e3ab3b">)</font><font color="#4abfc7">;</font>
+ReactDOM<font color="#4abfc7">.</font><font color="#1f2bd1">render</font><font color="#e3ab3b">(</font><font color="#4abfc7">&lt;</font><font color="#e3ab3b">App</font> <font color="#4abfc7">/&gt;,</font> rootContainer<font color="#e3ab3b">)</font><font color="#4abfc7">;</font>
                   
-reactime(rootContainer);</code></pre>
+<font color="#1f2bd1">reactime</font><font color="#e3ab3b">(</font>rootContainer<font color="#e3ab3b">)</font><font color="#4abfc7">;</font></code></pre>
                 <p>4. If you want to test an application using hooks, simply pass in App (or the name of your root component) into (INSERT).</p>
-                <pre class="tab"><code>reactime(rootcontainer, app)</code></pre>
+                <pre class="tab"><code><font color="#1f2bd1">reactime</font><font color="#e3ab3b">(</font>rootcontainer<font color="#4abfc7">,</font> app<font color="#e3ab3b">)</font></code></pre>
             </div>
           </div>
         </div>
@@ -501,3 +501,4 @@ reactime(rootContainer);</code></pre>
 </body>
 
 </html>
+
