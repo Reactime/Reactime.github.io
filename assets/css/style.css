@@ -37,7 +37,7 @@ code {
 	font-family: 'Cutive Mono', monospace;
 	font-size: 1em;
 	color: #666666;
-	text-transform: lowercase;
+	text-transform: none;
 }
 
 body {
@@ -445,7 +445,14 @@ a,
 
 /*--- [ 9. Typography ] ---*/
 a {
-	color: #000;
+	color: #066;
+}
+
+.only-tool {
+	font-family: inconsolata;
+	color: #066;
+	font-size: 1.1em;
+	text-transform: uppercase;
 }
 
 a:hover, a:focus {
@@ -673,10 +680,10 @@ a.meanmenu-reveal{display:none}
 	font-size: 20px;
 	color: #000;
 }
-
+/* change navbar link colors here */
 .navbar-custom .nav li > a {
 	position: relative;
-	color: #000;
+	color: #066;
 }
 
 .navbar-custom .nav > li > a:focus, .navbar-custom .nav > li > a:hover, .navbar-custom .nav .open > a, .navbar-custom .nav .open > a:focus, .navbar-custom .nav .open > a:hover, .navbar-custom .dropdown-menu > li > a:focus, .navbar-custom .dropdown-menu > li > a:hover {
@@ -1637,7 +1644,7 @@ nav.navbar.stick {
 }
 
 .copy-right a {
-  color: #000;
+  color: #066;
 }
 .footer-area {
   border-top: 1px solid #f2f2f2f2;
