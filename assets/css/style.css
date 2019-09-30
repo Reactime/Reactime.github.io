@@ -451,7 +451,8 @@ a {
 .only-tool {
 	font-family: inconsolata;
 	color: #066;
-	font-size: 1.3em;
+	font-size: 1.2em;
+	line-height: 0.7;
 	text-transform: uppercase;
 }
 
@@ -1531,7 +1532,14 @@ nav.navbar.stick {
 }
 
 
+.btn, .social-count {
+border-color: #066;
+}
 
+.widget-lg .btn, .widget-lg .social-count {
+color: #066;
+font-family: “inconsolata”;
+}
 
 .navbar-nav > li > a {
   padding-bottom: 20px;
