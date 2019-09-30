@@ -239,11 +239,11 @@
                 <pre class="tab"><code>const reactime = require('reactime');
                   
 const rootContainer = document.getElementById('root');
-ReactDOM.render(&lt;App /&gt;, rootContainer);
+render(&lt;App /&gt;, rootContainer);
                   
 reactime(rootContainer);</code></pre>
-                <p>4. If you want to test an application using hooks, simply pass in App (or the name of your root component) into (INSERT).</p>
-                <pre class="tab"><code>CODE TO ADD ASTs for REACTIME HOOK FUNCTIONALITY</code></pre>
+                <p>4. If you want to test an application using hooks, simply pass in App (or the name of your root component) as second argument.</p>
+                <pre class="tab"><code>reactime(rootContainer, App)</code></pre>
             </div>
           </div>
         </div>
