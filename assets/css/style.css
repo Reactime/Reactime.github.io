@@ -37,7 +37,7 @@ code {
 	font-family: 'Cutive Mono', monospace;
 	font-size: 5em;
 	color: #869c98;
-	text-transform: lowercase;
+	text-transform: none;
 }
 pre {
 	display: block;
@@ -513,7 +513,12 @@ blockquote {
 	text-transform: uppercase;
 	letter-spacing: 0.1em;
 }
-
+.only-tool {
+	font-family: "Inconsolata", sans-serif;
+	text-transform: uppercase;
+	/* letter-spacing: 0.02em; */
+	font-size: 1.7em;
+}
 .font-serif {
 	font-family: Georgia, sans-serif;
 }
@@ -1770,7 +1775,8 @@ nav.navbar.stick {
 /* SVG LOGO BG */
 .breadcrum-area {
   background: #012E2B; 
-  padding: 99px 0 29px;
+	padding: 99px 0 29px;
+	height: 550px;
 }
 .breadcrum-title > h2 {
   margin-bottom: 0;
