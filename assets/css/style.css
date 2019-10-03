@@ -1777,8 +1777,8 @@ font-family: “inconsolata”;
 /* SVG LOGO BG */
 .breadcrum-area {
 	/* background: #edf5f2;  */
-background: rgb(32,124,111);
-background: linear-gradient(103deg, rgba(32,124,111,0.5116421568627452) 0%, rgba(242,208,189,1) 47%, rgba(32,124,111,0.4192051820728291) 100%);
+background: rgb(149,217,200);
+background: linear-gradient(352deg, rgba(149,217,200,1) 0%, rgba(232,190,185,1) 100%);
   padding: 99px 0 29px;
 }
 .breadcrum-title > h2 {
