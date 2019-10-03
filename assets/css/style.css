@@ -449,7 +449,7 @@ a,
 
 /*--- [ 9. Typography ] ---*/
 a {
-	color: #066;
+	color: rgb(30, 176, 176);
 }
 
 .only-tool {
@@ -844,7 +844,7 @@ a.meanmenu-reveal{display:none}
 }
 
 .module-subtitle {
-	margin-bottom: 70px;
+	margin-bottom: 30px;
 	font-size: 12px;
 }
 
