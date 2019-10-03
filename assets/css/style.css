@@ -52,6 +52,10 @@ img {
 	height: auto;
 }
 
+.lowercase {
+	text-transform: lowercase;
+}
+
 iframe {
 	border: 0;
 }
@@ -451,9 +455,9 @@ a {
 .only-tool {
 	font-family: inconsolata;
 	color: #066;
-	font-size: 1.2em;
-	line-height: 0.7;
-	text-transform: uppercase;
+	font-size: 1.5em;
+	line-height: 0.5;
+	text-transform: none;
 }
 
 a:hover, a:focus {
@@ -1638,7 +1642,7 @@ font-family: “inconsolata”;
   width: 100px;
 }
 .section-title > h2::before {
-  background: #524f4f none repeat scroll 0 0;
+  background: #ddd  none repeat scroll 0 0;
   bottom: -8px;
   content: "";
   height: 2px;
@@ -1772,7 +1776,9 @@ font-family: “inconsolata”;
 /* const jade green = #08540; */
 /* SVG LOGO BG */
 .breadcrum-area {
-  background: #edf5f2; 
+	/* background: #edf5f2;  */
+background: rgb(32,124,111);
+background: linear-gradient(103deg, rgba(32,124,111,0.5116421568627452) 0%, rgba(242,208,189,1) 47%, rgba(32,124,111,0.4192051820728291) 100%);
   padding: 99px 0 29px;
 }
 .breadcrum-title > h2 {
